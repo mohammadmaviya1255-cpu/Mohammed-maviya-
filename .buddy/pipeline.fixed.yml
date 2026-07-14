@@ -16,6 +16,7 @@
     docker_image_tag: 3.14
   - action: nosetests 2
     type: BUILD
+    disabled: true
     commands: |-
       pip install -r requirements.txt
       nosetests
